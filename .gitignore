@@ -1,0 +1,476 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Spring Boot
+*.pid
+*.pid.lock
+
+# Application specific
+application-local.properties
+application-dev.properties
+application-prod.properties
+application-test.properties
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js (if using frontend tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if using any Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+# Kubernetes
+*.yaml
+*.yml
+!docker-compose.yml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage reports
+coverage/
+*.lcov
+.coverage
+htmlcov/
+
+# Test reports
+test-results/
+reports/
+*.xml
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# IDE specific
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+*.code-workspace
+
+# Local configuration files
+local.properties
+local.yml
+local.yaml
+
+# Maven (if migrating from Maven)
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# JVM crash logs
+hs_err_pid*
+
+# Application logs
+application.log
+spring.log
+
+# H2 database files
+*.h2.db
+*.h2.db.trace.db
+
+# Liquibase
+liquibase.properties
+
+# Flyway
+flyway.conf
+
+# JMeter
+*.jmx
+*.jtl
+
+# SonarQube
+.sonar/
+sonar-project.properties
+
+# Checkstyle
+checkstyle-result.xml
+
+# SpotBugs
+spotbugsXml.xml
+
+# JaCoCo
+jacoco.exec
+*.exec
+
+# Arquillian
+arquillian.xml
+
+# Spring Boot DevTools
+.springBeans
+
+# Spring Boot Actuator
+management/
+
+# Spring Boot Configuration Processor
+spring-configuration-metadata.json
+
+# Spring Boot Maven Plugin
+spring-boot-maven-plugin
+
+# Spring Boot Gradle Plugin
+spring-boot-gradle-plugin
+
+# Spring Boot CLI
+.spring/
+
+# Spring Boot Configuration
+spring-boot-configuration-processor
+
+# Spring Boot Loader
+spring-boot-loader
+
+# Spring Boot Test
+spring-boot-starter-test
+
+# Spring Boot Web
+spring-boot-starter-web
+
+# Spring Boot Data
+spring-boot-starter-data-*
+
+# Spring Boot Security
+spring-boot-starter-security
+
+# Spring Boot Actuator
+spring-boot-starter-actuator
+
+# Spring Boot Validation
+spring-boot-starter-validation
+
+# Spring Boot WebFlux
+spring-boot-starter-webflux
+
+# Spring Boot JPA
+spring-boot-starter-data-jpa
+
+# Spring Boot MongoDB
+spring-boot-starter-data-mongodb
+
+# Spring Boot Redis
+spring-boot-starter-data-redis
+
+# Spring Boot Elasticsearch
+spring-boot-starter-data-elasticsearch
+
+# Spring Boot Cassandra
+spring-boot-starter-data-cassandra
+
+# Spring Boot Neo4j
+spring-boot-starter-data-neo4j
+
+# Spring Boot Solr
+spring-boot-starter-data-solr
+
+# Spring Boot Couchbase
+spring-boot-starter-data-couchbase
+
+# Spring Boot LDAP
+spring-boot-starter-data-ldap
+
+# Spring Boot REST
+spring-boot-starter-data-rest
+
+# Spring Boot HAL
+spring-boot-starter-hateoas
+
+# Spring Boot AMQP
+spring-boot-starter-amqp
+
+# Spring Boot Kafka
+spring-boot-starter-kafka
+
+# Spring Boot Mail
+spring-boot-starter-mail
+
+# Spring Boot Cache
+spring-boot-starter-cache
+
+# Spring Boot Session
+spring-boot-starter-session
+
+# Spring Boot Integration
+spring-boot-starter-integration
+
+# Spring Boot Batch
+spring-boot-starter-batch
+
+# Spring Boot Quartz
+spring-boot-starter-quartz
+
+# Spring Boot Task
+spring-boot-starter-task
+
+# Spring Boot Cloud
+spring-cloud-*
+
+# Spring Boot Config
+spring-cloud-config
+
+# Spring Boot Eureka
+spring-cloud-netflix-eureka-*
+
+# Spring Boot Zuul
+spring-cloud-netflix-zuul
+
+# Spring Boot Hystrix
+spring-cloud-netflix-hystrix
+
+# Spring Boot Ribbon
+spring-cloud-netflix-ribbon
+
+# Spring Boot Feign
+spring-cloud-netflix-feign
+
+# Spring Boot Gateway
+spring-cloud-gateway
+
+# Spring Boot Bus
+spring-cloud-bus
+
+# Spring Boot Stream
+spring-cloud-stream
+
+# Spring Boot Function
+spring-cloud-function
+
+# Spring Boot Task
+spring-cloud-task
+
+# Spring Boot Data Flow
+spring-cloud-dataflow
+
+# Spring Boot Skipper
+spring-cloud-skipper
+
+# Spring Boot Deployer
+spring-cloud-deployer
+
+# Spring Boot Local
+spring-cloud-deployer-local
+
+# Spring Boot Cloud Foundry
+spring-cloud-deployer-cloudfoundry
+
+# Spring Boot Kubernetes
+spring-cloud-deployer-kubernetes
+
+# Spring Boot Mesos
+spring-cloud-deployer-mesos
+
+# Spring Boot YARN
+spring-cloud-deployer-yarn
+
+# Spring Boot Spark
+spring-cloud-deployer-spark
+
+# Spring Boot Data Flow Shell
+spring-cloud-dataflow-shell
+
+# Spring Boot Data Flow UI
+spring-cloud-dataflow-ui
+
+# Spring Boot Data Flow REST Client
+spring-cloud-dataflow-rest-client
+
+# Spring Boot Data Flow REST Resource
+spring-cloud-dataflow-rest-resource
+
+# Spring Boot Data Flow REST Resource Assembler
+spring-cloud-dataflow-rest-resource-assembler
+
+# Spring Boot Data Flow REST Resource Controller
+spring-cloud-dataflow-rest-resource-controller
+
+# Spring Boot Data Flow REST Resource Repository
+spring-cloud-dataflow-rest-resource-repository
+
+# Spring Boot Data Flow REST Resource Service
+spring-cloud-dataflow-rest-resource-service
+
+# Spring Boot Data Flow REST Resource Validator
+spring-cloud-dataflow-rest-resource-validator
+
+# Spring Boot Data Flow REST Resource Assembler
+spring-cloud-dataflow-rest-resource-assembler
+
+# Spring Boot Data Flow REST Resource Controller
+spring-cloud-dataflow-rest-resource-controller
+
+# Spring Boot Data Flow REST Resource Repository
+spring-cloud-dataflow-rest-resource-repository
+
+# Spring Boot Data Flow REST Resource Service
+spring-cloud-dataflow-rest-resource-service
+
+# Spring Boot Data Flow REST Resource Validator
+spring-cloud-dataflow-rest-resource-validator 
