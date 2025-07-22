@@ -49,6 +49,12 @@ class TodoExercisesTest {
     }
 
     // ========== MOCK EXERCISES ==========
+    @Test
+    @DisplayName("Sample injection")
+    void checkInjection() {
+        assertNotNull(animalService);
+        assertNotNull(zooManager);
+    }
 
     @Test
     @DisplayName("TODO: Mock Exercise 1 - Should find animal by species")
